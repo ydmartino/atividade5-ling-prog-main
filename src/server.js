@@ -1,7 +1,7 @@
 import express from 'express' //importa o express para o server
 import routes from './routes/index.js'
-import swaggerUi from './swagger-ui-express'
-import swaggerFile from './swagger-output.json' with { tipe: 'json'}//carrega o arquivo json
+import swaggerUi from 'swagger-ui-express'
+import swaggerFile from './swagger-output.json' with { type: "json"}//carrega o arquivo json
 
 
 const app = express()

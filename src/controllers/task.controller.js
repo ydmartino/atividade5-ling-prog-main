@@ -1,5 +1,5 @@
-import Task from '../controlers/produto.controller.js'
-import { validationResult } from 'express.validator'
+import Task from '../controllers/produto.controller.js'
+//import { validationResult } from 'express.validator'
 
 export default class TaskController {
     static async indexe(req, res) {

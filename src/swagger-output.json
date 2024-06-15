@@ -127,5 +127,39 @@
         }
       }
     }
+  },
+  "components": {
+    "schemas": {
+      "AddOrUpdateUser": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "example": "novoemail@email.com"
+          },
+          "name": {
+            "type": "string",
+            "example": "Novo email de usuário"
+          },
+          "age": {
+            "type": "number",
+            "example": 25
+          }
+        }
+      },
+      "AddOrUpdateTask": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "example": "Nova tarefa"
+          },
+          "userId": {
+            "type": "number",
+            "example": 1
+          }
+        }
+      }
+    }
   }
 }
