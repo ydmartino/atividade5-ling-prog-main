@@ -8,12 +8,8 @@ const doc = {
     },
 
     servers: [
-        {
-            url: 'http://localhost:3000'
-        }
-        {
-            render: 'https://ling-prog-aula-10.onrender.com'
-        }
+        {url: 'http://localhost:3000'},
+        {url: 'https://ling-prog-aula-10.onrender.com'}
     ]
 };
 
