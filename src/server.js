@@ -4,7 +4,7 @@ import routes from './routes/index.js'
 const app = express()
 const PORT = 3000 //porta definida
 
-app.use(express.json())
+app.use(express.json())//especificar express.json antes de definir as rotas
 app.use('/api', routes)//busca o server e cai em index.js, que reorienta para puxar do banco de dados e devolver os produtos em formato json
 
 //imputa no console npm start a mensagem em console.log
